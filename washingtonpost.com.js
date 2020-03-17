@@ -2,7 +2,7 @@
   {
     version: "1.0.0",
     versionDate: "2020-03-17",
-    script() {
+    async script() {
       const body = window.document.body;
       window.document.querySelector('html').style = "";
       body.style = "";
