@@ -1,4 +1,4 @@
-((ctx) => {
+(async (ctx) => {
   const scriptsURL = "https://raw.githubusercontent.com/JuroOravec/unlock/master/scripts"
 
   const scripts = _getScript();

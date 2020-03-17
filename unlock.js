@@ -1,4 +1,4 @@
-((ctx) => {
+(async (ctx) => {
   const mainURL = "https://raw.githubusercontent.com/JuroOravec/unlock/master/main.js";
 
   const res = await fetch(mainURL);
