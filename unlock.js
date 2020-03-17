@@ -6,6 +6,8 @@
     console.warn(`[Unlock] Could not load unlock/main.js`);
     return;
   }
-  return eval(await res.clone().text()).unlock();
+  const textBody = await res.clone().text();
+  const api = await eval(textBody);
+  return api.unlock();
 
 })(window)
